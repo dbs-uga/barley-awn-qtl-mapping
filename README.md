@@ -41,13 +41,24 @@ genetics directly applicable to plant ecological genetics research.
 ---
 
 ## 🖼️ Figures
-| Figure | Description |
-|---|---|
-| 01_qtl_bubble_plot | QTL significance across all chromosomes |
-| 02_allele_effects_chr7 | Allele effects at major QTL — Chr 7 |
-| 03_variance_explained | Phenotypic variance explained per QTL |
-| 04_phenotype_distribution | Phenotype distribution across 916 lines |
-| 05_qtl_chromosome_map | QTL positions mapped across chromosomes |
+
+### Genetic Linkage Map
+![Genetic Linkage Map](figures/06_genetic_linkage_map.png)
+
+### QTL Bubble Plot
+![QTL Bubble Plot](figures/01_qtl_bubble_plot.png)
+
+### Allele Effects at Major QTL — Chromosome 7
+![Allele Effects](figures/02_allele_effects_chr7.png)
+
+### Variance Explained by Each QTL
+![Variance Explained](figures/03_variance_explained.png)
+
+### Phenotype Distribution
+![Phenotype Distribution](figures/04_phenotype_distribution.png)
+
+### QTL Chromosome Position Map
+![QTL Position Map](figures/05_qtl_chromosome_map.png)
 
 ---
 
