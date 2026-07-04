@@ -28,7 +28,8 @@ genetics directly applicable to plant ecological genetics research.
 1. **Phenotypic analysis** — distribution, summary statistics
 2. **QTL mapping** — multi-parent QTL mapping with threshold LOD = 4
 3. **Allele effect estimation** — per parent allele effects at significant QTLs
-4. **Visualization** — publication-quality figures in ggplot2
+4. **Candidate gene identification** — Chr 7 major QTL region
+5. **Visualization** — publication-quality figures in ggplot2
 
 ---
 
@@ -36,32 +37,33 @@ genetics directly applicable to plant ecological genetics research.
 - 12 QTLs detected across all 7 barley chromosomes
 - Major QTL on chromosome 7 (position 121.04 cM) explaining **26.48%** of phenotypic variance
 - Allele effects range from -15.1 mm (HID382) to +11.4 mm (Morex)
-- Mean awn length: 149.8 mm (range: 89–207 mm)
+- Mean awn length: 149.8 mm (range: 89-207 mm)
+- Novel locus AL7.1 fine mapped to less than 0.9 cM interval
 
 ---
 
 ## 🖼️ Figures
 
-### Candidate Gene Map — Chromosome 7HL
-![Candidate Gene Map](figures/07_candidate_gene_map_chr7.png)
-
 ### Genetic Linkage Map
-![Genetic Linkage Map](figures/06_genetic_linkage_map.png)
+![Genetic Linkage Map](results/figures/06_genetic_linkage_map.png)
 
 ### QTL Bubble Plot
-![QTL Bubble Plot](figures/01_qtl_bubble_plot.png)
+![QTL Bubble Plot](results/figures/01_qtl_bubble_plot.png)
 
 ### Allele Effects at Major QTL — Chromosome 7
-![Allele Effects](figures/02_allele_effects_chr7.png)
+![Allele Effects](results/figures/02_allele_effects_chr7.png)
 
 ### Variance Explained by Each QTL
-![Variance Explained](figures/03_variance_explained.png)
+![Variance Explained](results/figures/03_variance_explained.png)
 
 ### Phenotype Distribution
-![Phenotype Distribution](figures/04_phenotype_distribution.png)
+![Phenotype Distribution](results/figures/04_phenotype_distribution.png)
 
 ### QTL Chromosome Position Map
-![QTL Position Map](figures/05_qtl_chromosome_map.png)
+![QTL Position Map](results/figures/05_qtl_chromosome_map.png)
+
+### Candidate Gene Map — Chromosome 7HL
+![Candidate Gene Map](results/figures/07_candidate_gene_map_chr7.png)
 
 ---
 
@@ -69,26 +71,27 @@ genetics directly applicable to plant ecological genetics research.
 **R:** `statgenMPP`, `ggplot2`, `dplyr`
 
 ---
+
 ## 📁 Repository Structure
 - scripts/qtl/ — QTL mapping R scripts
 - results/figures/ — publication-quality PNG figures
 - results/tables/ — QTL results and candidate gene tables
 - data/raw/ — raw data files
 - data/processed/ — processed data files
-- report/ — RMarkdown integrated report
 
 ---
 
 ## 📄 Status
 ✅ Phase 1: QTL mapping complete — 7 publication figures produced
-🔄 Phase 2: Candidate gene identification
+✅ Phase 2: Candidate gene identification complete
 🔄 Phase 3: RNA-seq validation (planned)
 
 ---
 
 ## 📚 Reference
-Liller CB et al. (2017) Fine mapping of a major QTL for awn length in barley 
+Liller CB et al. (2017) Fine mapping of a major QTL for awn length in barley
 using a multiparent mapping population. *Theoretical and Applied Genetics.*
+doi:10.1007/s00122-016-2807-y
 
 ---
 
