@@ -1,76 +1,84 @@
-# 🌿 Barley Leaf GWAS Meta-Analysis
+# 🌾 Barley Awn Length — QTL Mapping
 
-### Fitness effects of molecular variants affecting leaf area and 
-### economics spectrum in *Hordeum vulgare*
+### Genetic dissection of awn length in a barley multi-parent population
 
 ---
 
 ## 🔬 Overview
-This project is a computational reproduction and meta-analysis of 
-published GWAS studies on leaf morphology and leaf economics spectrum 
-(LES) traits in barley (*Hordeum vulgare*), integrating RNA-Seq 
-re-analysis and CRISPR in silico validation to identify and 
-functionally characterize candidate genes.
+This project performs QTL mapping for awn length in barley (*Hordeum vulgare*)
+using a multi-parent population. The analysis identifies genomic regions 
+controlling awn development, quantifies allele effects across parent lines,
+and provides a fully reproducible R pipeline with publication-quality figures.
 
-This work is independently conducted to demonstrate active 
-bioinformatics skills aligned with current research in plant 
-ecological genetics.
+This work demonstrates transferable computational skills in quantitative 
+genetics directly applicable to plant ecological genetics research.
 
 ---
 
-## 🎯 Traits Studied
-| Trait | Description |
-|---|---|
-| Leaf Area | Total leaf surface area per plant |
-| Specific Leaf Area (SLA) | Leaf area per unit dry mass |
-| Leaf Width | Blade width at widest point |
-| Leaf Length | Blade length from base to tip |
-| Leaf Nitrogen Content | Proxy for photosynthetic capacity |
+## 📊 Dataset
+- **Population:** Multi-parent barley population (Liller et al. 2017)
+- **Lines:** 916 barley accessions
+- **Markers:** 355 SNP markers across 7 chromosomes
+- **Trait:** Awn length (mm)
+- **Data source:** `statgenMPP` R package
 
 ---
 
 ## 🔁 Pipeline
-1. **GWAS Meta-Analysis** — consistent SNPs across published studies (`metafor`)
-2. **RNA-Seq Re-analysis** — candidate gene expression in leaf tissue (`DESeq2`)
-3. **CRISPR In Silico Validation** — guide RNA design and off-target analysis
+1. **Phenotypic analysis** — distribution, summary statistics
+2. **QTL mapping** — multi-parent QTL mapping with threshold LOD = 4
+3. **Allele effect estimation** — per parent allele effects at significant QTLs
+4. **Visualization** — publication-quality figures in ggplot2
+
+---
+
+## 📈 Key Results
+- 12 QTLs detected across all 7 barley chromosomes
+- Major QTL on chromosome 7 (position 121.04 cM) explaining **26.48%** of phenotypic variance
+- Allele effects range from -15.1 mm (HID382) to +11.4 mm (Morex)
+- Mean awn length: 149.8 mm (range: 89–207 mm)
+
+---
+
+## 🖼️ Figures
+| Figure | Description |
+|---|---|
+| 01_qtl_bubble_plot | QTL significance across all chromosomes |
+| 02_allele_effects_chr7 | Allele effects at major QTL — Chr 7 |
+| 03_variance_explained | Phenotypic variance explained per QTL |
+| 04_phenotype_distribution | Phenotype distribution across 916 lines |
+| 05_qtl_chromosome_map | QTL positions mapped across chromosomes |
 
 ---
 
 ## 🛠️ Tools & Packages
-**R:** `metafor`, `DESeq2`, `clusterProfiler`, `ggplot2`,
-`biomaRt`, `dplyr`, `data.table`, `pheatmap`, `qqman`
-
-**External:** CRISPOR, Cas-OFFinder, GrainGenes, NCBI GEO
-
----
-
-## 📊 Data Sources
-- GrainGenes (graingenes.org)
-- NCBI GEO (ncbi.nlm.nih.gov/geo)
-- IPK Gatersleben Barley Diversity Panel
-- Published GWAS supplementary tables (cited in report)
-- *Hordeum vulgare* reference genome (Morex v3)
+**R:** `statgenMPP`, `ggplot2`, `dplyr`
 
 ---
 
 ## 📁 Repository Structure
-
-- data/raw — Downloaded GWAS summary stats and count matrices
-- data/processed — Cleaned and harmonized data
-- scripts/gwas — Meta-analysis R scripts
-- scripts/rnaseq — DESeq2 pipeline scripts
-- scripts/crispr — Guide RNA and off-target scripts
-- results/figures — Manhattan, forest, volcano plots
-- results/tables — Top SNPs, DEGs, candidate genes
-- report/ — Integrated RMarkdown report
+- data/ — raw and processed data files
+- scripts/ — R analysis scripts
+- results/figures/ — publication-quality PNG figures
+- results/tables/ — QTL results tables
+- report/ — RMarkdown integrated report
+- docs/ — methods and notes
 
 ---
 
 ## 📄 Status
-🔄 Phase 1: Data collection — GWAS summary statistics
+✅ Phase 1: QTL mapping complete — 5 publication figures produced
+🔄 Phase 2: Candidate gene identification
+🔄 Phase 3: CRISPR in silico validation
+
+---
+
+## 📚 Reference
+Liller CB et al. (2017) Fine mapping of a major QTL for awn length in barley 
+using a multiparent mapping population. *Theoretical and Applied Genetics.*
 
 ---
 
 ## 👤 Author
-Divya Bhanu Sharma | Plant Geneticist & Bioinformatics Researcher  
-Independent research | 2025
+Divya Bhanu Sharma | Plant Geneticist & Bioinformatics Researcher
+Independent research | 2026
