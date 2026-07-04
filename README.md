@@ -42,6 +42,9 @@ genetics directly applicable to plant ecological genetics research.
 
 ## 🖼️ Figures
 
+### Candidate Gene Map — Chromosome 7HL
+![Candidate Gene Map](figures/07_candidate_gene_map_chr7.png)
+
 ### Genetic Linkage Map
 ![Genetic Linkage Map](figures/06_genetic_linkage_map.png)
 
@@ -66,21 +69,20 @@ genetics directly applicable to plant ecological genetics research.
 **R:** `statgenMPP`, `ggplot2`, `dplyr`
 
 ---
-
 ## 📁 Repository Structure
-- data/ — raw and processed data files
-- scripts/ — R analysis scripts
+- scripts/qtl/ — QTL mapping R scripts
 - results/figures/ — publication-quality PNG figures
-- results/tables/ — QTL results tables
+- results/tables/ — QTL results and candidate gene tables
+- data/raw/ — raw data files
+- data/processed/ — processed data files
 - report/ — RMarkdown integrated report
-- docs/ — methods and notes
 
 ---
 
 ## 📄 Status
-✅ Phase 1: QTL mapping complete — 5 publication figures produced
+✅ Phase 1: QTL mapping complete — 7 publication figures produced
 🔄 Phase 2: Candidate gene identification
-🔄 Phase 3: CRISPR in silico validation
+🔄 Phase 3: RNA-seq validation (planned)
 
 ---
 
