@@ -1,0 +1,5 @@
+"Gene","Chromosome","Position_cM","Function","In_QTL_interval","Reference"
+"AL7.1 (novel locus)","7HL",121.04,"Novel awn length locus — fine mapped to <0.9 cM","YES — major QTL","Liller et al. 2017"
+"HvLks2","7HL",91,"Short awn — bristle development","No — 30cM proximal","Yuo et al. 2012"
+"HvDIM","7HL",140.3,"Brassinosteroid biosynthesis — plant stature","No — distal","Dockter et al. 2014"
+"HvRAW1","7HL",NA,"ROUGH AWN1 — awn surface texture","Candidate","Supplemental"
