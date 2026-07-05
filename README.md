@@ -2,6 +2,17 @@
 
 ### Genetic dissection of awn length in a barley multi-parent population
 
+## 📋 Table of Contents
+- [Overview](#-overview)
+- [Dataset](#-dataset)
+- [Pipeline](#-pipeline)
+- [Key Results](#-key-results)
+- [Figures](#-figures)
+- [Tools & Packages](#️-tools--packages)
+- [Repository Structure](#-repository-structure)
+- [Status](#-status)
+- [Reference](#-reference)
+- [Author](#-author)
 ---
 
 ## 🔬 Overview
