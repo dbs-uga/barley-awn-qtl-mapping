@@ -21,7 +21,10 @@ genetics directly applicable to plant ecological genetics research.
 - **Trait:** Awn length (mm)
 - **Data source:** `statgenMPP` R package (built-in dataset)
 - **How to access:** Run `data(barleyPheno)` and `data(barleyMQM)` in R after installing `statgenMPP`
-
+-Liller CB, Neuhaus R, von Korff M, Koornneef M, van Esse W (2017) 
+Fine mapping of a major QTL for awn length in barley using a 
+multiparent mapping population. Theoretical and Applied Genetics. 
+130(3):609-622. doi:10.1007/s00122-016-2807-y
 ---
 
 ## 🔁 Pipeline
