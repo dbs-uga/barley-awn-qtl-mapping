@@ -80,10 +80,10 @@ genetics directly applicable to plant ecological genetics research.
 - data/processed/ — processed data files
 
 ---
-
 ## 📄 Status
-✅ Phase 1: QTL mapping complete — 7 publication figures produced
-✅ Phase 2: Candidate gene identification complete
+
+- ✅ Phase 1: QTL mapping complete — 7 publication figures produced
+- ✅ Phase 2: Candidate gene identification complete
 ---
 
 ## 📚 Reference
