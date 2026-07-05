@@ -84,8 +84,6 @@ genetics directly applicable to plant ecological genetics research.
 ## 📄 Status
 ✅ Phase 1: QTL mapping complete — 7 publication figures produced
 ✅ Phase 2: Candidate gene identification complete
-🔄 Phase 3: RNA-seq validation (planned)
-
 ---
 
 ## 📚 Reference
