@@ -14,13 +14,13 @@ This work demonstrates transferable computational skills in quantitative
 genetics directly applicable to plant ecological genetics research.
 
 ---
-
 ## 📊 Dataset
 - **Population:** Multi-parent barley population (Liller et al. 2017)
 - **Lines:** 916 barley accessions
 - **Markers:** 355 SNP markers across 7 chromosomes
 - **Trait:** Awn length (mm)
-- **Data source:** `statgenMPP` R package
+- **Data source:** `statgenMPP` R package (built-in dataset)
+- **How to access:** Run `data(barleyPheno)` and `data(barleyMQM)` in R after installing `statgenMPP`
 
 ---
 
